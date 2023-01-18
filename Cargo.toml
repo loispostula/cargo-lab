@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+test-crate-2 = { version = "0.1.0", registry = "fake-private-git"}
+[dev-dependencies]
+test-crate-3 = { version = "0.1.0", registry = "fake-private-http"}
